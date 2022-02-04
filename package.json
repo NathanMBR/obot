@@ -1,10 +1,10 @@
 {
-  "name": "",
+  "name": "obot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Discord bot inspired in Ornn, my favorite League of Legends champion (and the best one).",
   "main": "./build/index.js",
-  "repository": "",
-  "author": "",
+  "repository": "https://github.com/NathanMBR/obot.git",
+  "author": "Nathan Murillo <nathanmurillodeoliveira@gmail.com>",
   "license": "MIT",
   "scripts": {
     "postinstall": "husky install",
