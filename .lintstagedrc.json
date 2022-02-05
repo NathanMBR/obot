@@ -1,5 +1,5 @@
 {
-	"src/commands/*.{ts,js}": [
+	"src/commands/**/*.{ts,js}": [
 		"npm run build:lint",
 		"npm run test -- --bail --findRelatedTests"
 	],
