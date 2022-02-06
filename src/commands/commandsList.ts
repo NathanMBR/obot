@@ -2,11 +2,13 @@ import { ICommandsList } from "@/types";
 import {
 	defaultController,
 	clearController,
-	pingController
+	pingController,
+	obodeController
 } from "@/commands";
 
 export const commandsList: ICommandsList = {
 	default: defaultController,
 	clear: clearController,
-	ping: pingController
+	ping: pingController,
+	OBODE: obodeController
 };
