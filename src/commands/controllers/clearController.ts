@@ -14,7 +14,7 @@ export const clearController = async ({ message, splitCommand }: IControllerInje
 	try {
 		const messagesQuantity = Number(splitCommand[2]);
 		const searchOptions: ChannelLogsQueryOptions = {
-			limit: messagesQuantity
+			limit: messagesQuantity + 1
 		};
 
 		clearValidator(messagesQuantity);
