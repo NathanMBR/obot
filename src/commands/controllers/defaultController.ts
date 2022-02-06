@@ -5,7 +5,7 @@ import { defaultService } from "../services";
 
 export const defaultController = async ({ message, splitCommand }: IControllerInjection) => {
 	try {
-		await defaultService(message, splitCommand);
+		await defaultService(message, splitCommand[1]);
 	} catch (error) {
 		console.error("An internal error occurred. Error:\n", error);
 		message.reply("An internal error occurred and the request can't be successfully finished.");
