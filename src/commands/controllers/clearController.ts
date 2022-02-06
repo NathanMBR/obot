@@ -21,7 +21,7 @@ export const clearController = async ({ message, splitCommand }: IControllerInje
 		nonMockableClearValidator(message);
 
 		const fetchedMessages = await clearResource(message, searchOptions);
-		clearService(fetchedMessages);
+		await clearService(fetchedMessages);
 	} catch (error) {
 		if (error instanceof ValidationError)
 			message.reply(error.message);
