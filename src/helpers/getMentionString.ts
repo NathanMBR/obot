@@ -1,0 +1,1 @@
+export const getMentionString = (id: string) => `<@!${id}>`;
