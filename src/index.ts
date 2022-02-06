@@ -3,6 +3,7 @@ import {
 	ClientOptions,
 	Intents
 } from "discord.js";
+import { setupEventListeners } from "@/helpers";
 import { AUTH_KEY } from "./configs";
 
 const clientSettings: ClientOptions = {
@@ -13,4 +14,5 @@ const clientSettings: ClientOptions = {
 };
 
 const client = new Client(clientSettings);
+setupEventListeners(client);
 client.login(AUTH_KEY);
