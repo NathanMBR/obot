@@ -7,7 +7,7 @@
   "author": "Nathan Murillo <nathanmurillodeoliveira@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "husky install",
+    "postinstall": "is-ci || husky install",
     "test": "jest --verbose",
     "build": "concurrently npm:build:*",
     "build:lint": "eslint --fix",
