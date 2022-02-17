@@ -10,5 +10,5 @@ export const commandsList: ICommandsList = {
 	default: defaultController,
 	clear: clearController,
 	ping: pingController,
-	OBODE: obodeController
+	obode: obodeController
 };
