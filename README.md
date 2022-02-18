@@ -4,7 +4,7 @@ Obot is a Discord bot made to clear messages from the chats. He's inspired in Or
 ## Setup
 
 1. Install dependencies with `yarn install` (preferred) or `npm install`
-2. Add PREFIX and AUTH_KEY environment variables
+2. Add `PREFIX` and `AUTH_KEY` environment variables
 3. Run `yarn qs` to compile and run the code
 
 ## Commands
