@@ -1,10 +1,13 @@
 # OBOT
 Obot is a Discord bot made to clear messages from the chats. He's inspired in Ornn, my favorite League of Legends champion (and the best one).
 
+## Invite
+You can [click here](https://discord.com/api/oauth2/authorize?client_id=938149705140027472&permissions=8&scope=bot%20applications.commands) to invite OBOT to your server.
+
 ## Setup
 
 1. Install dependencies with `yarn install` (preferred) or `npm install`
-2. Add PREFIX and AUTH_KEY environment variables
+2. Add `PREFIX` and `AUTH_KEY` environment variables
 3. Run `yarn qs` to compile and run the code
 
 ## Commands
