@@ -1,1 +1,1 @@
-worker: yarn --production=false && yarn qs
+worker: yarn install --ignore-scripts && yarn build && yarn start
