@@ -10,7 +10,7 @@
     "postinstall": "is-ci || husky install",
     "test": "jest --verbose",
     "build": "concurrently npm:build:*",
-    "build:lint": "eslint --fix",
+    "lint": "eslint --fix",
     "build:types": "tsc -p tsconfig.build.json",
     "build:compile": "babel src --extensions .ts --out-dir build --source-maps",
     "start": "node --enable-source-maps .",
