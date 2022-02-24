@@ -11,8 +11,8 @@ export const clearValidator = (quantity: number): void => {
 	if (quantity <= 0)
 		throw new ValidationError("The quantity must be greater than zero.");
 
-	if (quantity > 20)
-		throw new ValidationError("The quantity must be less than or equal to 20.");
+	if (quantity > 50)
+		throw new ValidationError("The quantity must be less than or equal to 50.");
 };
 
 export const nonMockableClearValidator = (message: Message<boolean>) => {
