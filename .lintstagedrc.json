@@ -1,8 +1,8 @@
 {
 	"src/commands/**/*.{ts,js}": [
-		"npm run build:lint"
+		"npm run lint"
 	],
 	"test/**/*.{ts,js}": [
-		"npm run build:lint"
+		"npm run lint"
 	]
 }
