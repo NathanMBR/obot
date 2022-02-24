@@ -4,7 +4,7 @@ import {
 	Intents
 } from "discord.js";
 import { setupEventListeners } from "@/helpers";
-import { AUTH_KEY } from "./configs";
+import { AUTH_KEY } from "@/configs";
 
 const clientSettings: ClientOptions = {
 	intents: [
