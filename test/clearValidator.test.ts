@@ -9,8 +9,8 @@ describe("Clear command validation tests", () => {
 		expect(() => { clearValidator(0); }).toThrowError("The quantity must be greater than zero.");
 	});
 
-	it("Should throw an error when passing a number greater than 20", () => {
-		expect(() => { clearValidator(21); }).toThrowError("The quantity must be less than or equal to 20.");
+	it("Should throw an error when passing a number greater than 50", () => {
+		expect(() => { clearValidator(51); }).toThrowError("The quantity must be less than or equal to 50.");
 	});
 
 	it("Should be successfully validated", () => {
