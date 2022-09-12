@@ -13,6 +13,6 @@ You can [click here](https://discord.com/api/oauth2/authorize?client_id=93814970
 ## Commands
 | **Command** | **Usage** | **Definition** |
 | --- | --- | --- |
-| Clear | `<prefix> clear <quantity>` | Clears the specified amount of messages in the chat it's used. Can't clean more than 20 messages at a time |
-| Ping | `<prefix> ping` | Replies with "pong" and the message delay. Delay is calculated using two different timestamps, so imprecision is expected |
+| Clear | `<prefix> clear <quantity>` | Clears the specified amount of messages in the chat it's used. Can't clean more than 50 messages at a time |
+| Ping | `<prefix> ping` | Replies with "pong" and the message delay. Delay is calculated using timestamps from two different origins, so imprecision is expected |
 | OBODE | `<prefix> OBODE` | Replies with "OBOT" (inside joke) |
